@@ -33,5 +33,3 @@ print("\nДесериализованный объект (Python) -> \n", json.l
 
 with open("userinformation.json", "w", encoding="utf-8") as f:
     f.write(json_string)
-
-print("\n Данные сохранены в 'userinformation.json'")
