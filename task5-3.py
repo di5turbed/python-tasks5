@@ -27,9 +27,9 @@ user_info = {
 }
 
 json_string = json.dumps(user_info)
-print("Сгенерированные данные (JSON) -> \n", json_string)
+print("Сгенерированные данные (JSON) ->", json_string)
 
-print("\nДесериализованный объект (Python) -> \n", json.loads(json_string))
+print("\nДесериализованный объект (Python) ->", json.loads(json_string))
 
 with open("userinformation.json", "w", encoding="utf-8") as f:
     f.write(json_string)
